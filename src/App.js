@@ -1,23 +1,49 @@
-import logo from './logo.svg';
 import './App.css';
+import DatatablePage from './Components/Table';
+import { MDBCard, MDBCardBody, MDBContainer, MDBRow, MDBCol, MDBInput, MDBBtn } from 'mdb-react-ui-kit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <MDBContainer>
+    <MDBCard>
+      <MDBCardBody>
+        <MDBRow>
+        <MDBCol size='md' className='col-example'>
+          <div id='textExample1' className='form-text'>
+            Data de Início
+          </div>
+          <MDBInput label='Example label' id='formTextExample1' type='text' aria-describedby='textExample1' />
+        </MDBCol>
+        <MDBCol size='md' className='col-example'>
+        <div id='textExample1' className='form-text'>
+            Data de Fim
+          </div>
+          <MDBInput label='Example label' id='formTextExample1' type='text' aria-describedby='textExample1' />
+        </MDBCol>
+        <MDBCol size='md' className='col-example'>
+        <div id='textExample1' className='form-text'>
+            Nome operador transação
+          </div>
+          <MDBInput label='Example label' id='formTextExample1' type='text' aria-describedby='textExample1' />
+        </MDBCol>
+        </MDBRow>
+      </MDBCardBody>
+
+      <MDBCardBody>
+      <div className="d-flex justify-content-end">
+      <MDBBtn className='text-dark' color='light'>
+        Pesquisar
+      </MDBBtn>
+      </div>
+      </MDBCardBody>
+
+      <MDBCardBody>
+        <DatatablePage/>
+      </MDBCardBody>
+    </MDBCard>
+    </MDBContainer>
+
     </div>
   );
 }
