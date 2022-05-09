@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+# Getting Started 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -68,3 +67,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## requests 
+https://8080-bitnator-gitpodtest-9asj49qo1oi.ws-us44.gitpod.io/transferencia/Beltrano
+
+[{"id":1,"dataTransferencia":"2019-01-01 12:00:00","valor":30895.46,"tipo":"DEPOSITO","nomeOperadorTransacao":null,"conta":{"id":1,"nomeResponsavel":"Fulano"}},{"id":2,"dataTransferencia":"2019-02-03 09:53:27","valor":12.24,"tipo":"DEPOSITO","nomeOperadorTransacao":null,"conta":{"id":2,"nomeResponsavel":"Sicrano"}},{"id":3,"dataTransferencia":"2019-05-04 08:12:45","valor":-500.5,"tipo":"SAQUE","nomeOperadorTransacao":null,"conta":{"id":1,"nomeResponsavel":"Fulano"}},{"id":4,"dataTransferencia":"2019-08-07 08:12:45","valor":-530.5,"tipo":"SAQUE","nomeOperadorTransacao":null,"conta":{"id":2,"nomeResponsavel":"Sicrano"}},{"id":5,"dataTransferencia":"2020-06-08 10:15:01","valor":3241.23,"tipo":"TRANSFERENCIA","nomeOperadorTransacao":"Beltrano","conta":{"id":1,"nomeResponsavel":"Fulano"}},{"id":6,"dataTransferencia":"2021-04-01 12:12:04","valor":25173.09,"tipo":"TRANSFERENCIA","nomeOperadorTransacao":"Ronnyscley","conta":{"id":2,"nomeResponsavel":"Sicrano"}}]
